@@ -11,7 +11,7 @@ Resources:
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
       Timeout: 30
-      Role: arn:aws:iam::004586830768:role/CloudFormationServiceRole
+      Role: arn:aws:iam::004586830768:role/soda-dev-ap-northeast-1-lambdaRole
       Events:
         getAZsAPI:
           Type: Api
